@@ -56,3 +56,6 @@ in controller function change the return value lika this:
 
           return view('parent', $users);
         }
+
+#### Demo
+![enter image description here](https://github.com/bilal1112/Laravel-Pagination-jQuery-Plugin/blob/master/demo.gif)
