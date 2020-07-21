@@ -51,8 +51,8 @@ in controller function change the return value lika this:
           // code goes here
 
           if ($request->ajax()) {
-              return response()->json(view('child',$variables)->render(),200);
+              return response()->json(view('child',$users)->render(),200);
           }
 
-          return view('parent', $variables);
+          return view('parent', $users);
         }
