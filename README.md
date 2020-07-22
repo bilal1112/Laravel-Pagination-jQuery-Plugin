@@ -45,7 +45,7 @@ Call Laravel paginate plugin
 
        $('#list').paginate();
        
-in controller function change the return value lika this:
+in controller function change the return value like this:
 
         public function index(Request $request){
           // code goes here
